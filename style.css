@@ -1,0 +1,38 @@
+body { font-family: Arial, sans-serif; background: white; color: #333; line-height: 1.7; }
+a, h1, h2, h3, h4, h5 { color: #1403a6; }
+.navbar { background: #1403a6; }
+.navbar-brand { color: white !important; font-weight: bold; }
+.nav-link { color: white !important; margin-left: 12px; }
+.nav-link:hover, .nav-link.active { text-decoration: underline; }
+.hero { padding: 35px 0 50px; background: white; }
+.hero h1 { font-size: clamp(2rem, 3vw, 2.8rem); font-weight: bold; }
+.hero-side h2 { font-size: 1.6rem; }
+.hero span, .section-title span { color: #c62828; }
+.profile-photo { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }
+.btn-custom { background: #c62828; color: white; padding: 10px 20px; }
+.btn-custom:hover { background: #a61f1f; color: white; }
+.btn-outline-primary { color: #1403a6; background: #f0effb; }
+.btn-outline-primary:hover { background: #1403a6; color: white; }
+.section-padding { padding: 45px 0; }
+.section-title { font-weight: bold; margin-bottom: 25px; }
+.info-card { height: 100%; padding: 22px; background: white; }
+.page-banner { background: white; padding: 40px 0; }
+.soft-bg { background: white; }
+.skill-label { color: #1403a6; font-weight: bold; }
+.progress { height: 18px; margin-bottom: 20px; background: #eee; }
+.progress-bar { background: #1403a6; }
+.badge { background: #1403a6 !important; color: white !important; }
+.badge:nth-child(even) { background: #c62828 !important; }
+.gallery-img { width: 100%; height: 280px; object-fit: cover; }
+.video-frame { width: 100%; max-height: 480px; background: #eee; }
+.contact { padding: 15px; overflow-wrap: anywhere; }
+.form-control { padding: 10px; background: #f3f3f3; }
+footer { background: white; color: #333; padding: 25px 0; }
+footer a { color: #1403a6; margin: 0 5px; }
+.info-card, .profile-photo, .navbar, .navbar-toggler, .hero, .page-banner, .soft-bg, .contact, footer, .btn, .form-control { border: 0; }
+:focus-visible { outline: 3px solid #c62828; outline-offset: 3px; }
+@media (max-width: 991px) {
+ .hero-side { text-align: center; }
+ .hero .profile-photo { max-width: 460px; }
+ .section-padding { padding: 30px 0; }
+}
